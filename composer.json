@@ -1,8 +1,8 @@
 {
-    "name": "league/flysystem-azure-blob-storage",
+    "name": "bussola-social/flysystem-azure-blob-storage",
     "autoload": {
         "psr-4": {
-            "League\\Flysystem\\AzureBlobStorage\\": ""
+            "BussolaSocial\\Flysystem\\AzureBlobStorage\\": ""
         }
     },
     "require": {
