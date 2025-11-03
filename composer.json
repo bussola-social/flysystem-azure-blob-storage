@@ -2,7 +2,8 @@
     "name": "bussola-social/flysystem-azure-blob-storage",
     "autoload": {
         "psr-4": {
-            "BussolaSocial\\Flysystem\\AzureBlobStorage\\": ""
+          "BussolaSocial\\Flysystem\\AzureBlobStorage\\": "",
+          "Core\\Packages\\": "core/Packages/"
         }
     },
     "require": {
