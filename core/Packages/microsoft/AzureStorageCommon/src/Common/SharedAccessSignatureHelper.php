@@ -22,11 +22,11 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Resources;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Utilities;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Validate;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Resources;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Utilities;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Validate;
 
 /**
  * Provides methods to generate Azure Storage Shared Access Signature

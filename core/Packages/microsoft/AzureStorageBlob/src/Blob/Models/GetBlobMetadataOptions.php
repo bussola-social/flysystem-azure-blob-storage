@@ -22,7 +22,7 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageBlob\src\Blob\Models;
+namespace Core\Packages\microsoft\AzureStorageBlob\Blob\Models;
 
 /**
  * Optional parameters for getBlobMetadata wrapper

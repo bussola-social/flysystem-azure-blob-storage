@@ -22,12 +22,12 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageBlob\src\Blob\Internal;
+namespace Core\Packages\microsoft\AzureStorageBlob\Blob\Internal;
 
-use Core\Packages\microsoft\AzureStorageBlob\src\Blob\Models as BlobModels;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\ServiceOptions;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\ServiceProperties;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\Range;
+use Core\Packages\microsoft\AzureStorageBlob\Blob\Models as BlobModels;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\ServiceOptions;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\ServiceProperties;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\Range;
 use Psr\Http\Message\StreamInterface;
 
 /**

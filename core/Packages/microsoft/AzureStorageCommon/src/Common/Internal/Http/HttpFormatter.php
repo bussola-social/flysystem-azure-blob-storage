@@ -21,7 +21,7 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Http;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Http;
 
 /**
  * Helper class to format the http headers

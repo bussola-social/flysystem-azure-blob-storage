@@ -23,13 +23,13 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\LocationMode;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\ServiceOptions;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\ServiceProperties;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\GetServicePropertiesResult;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\GetServiceStatsResult;
+use Core\Packages\microsoft\AzureStorageCommon\Common\LocationMode;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\ServiceOptions;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\ServiceProperties;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\GetServicePropertiesResult;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\GetServiceStatsResult;
 
 /**
  * Trait implementing common REST API for all the services, including the

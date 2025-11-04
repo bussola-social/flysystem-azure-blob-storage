@@ -22,7 +22,7 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Models;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Models;
 
 /**
  * Trait implementing setting and getting useTransactionalMD5 for

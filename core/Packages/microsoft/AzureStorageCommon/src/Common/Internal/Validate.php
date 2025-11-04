@@ -23,9 +23,9 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Exceptions\InvalidArgumentTypeException;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Exceptions\InvalidArgumentTypeException;
 
 /**
  * Validates against a condition and throws an exception in case of failure.

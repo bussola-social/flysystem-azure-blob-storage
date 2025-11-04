@@ -22,12 +22,12 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Http;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Http;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Utilities;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Resources;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Validate;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\ServiceOptions;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Utilities;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Resources;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Validate;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\ServiceOptions;
 
 /**
  * Holds basic elements for making HTTP call.

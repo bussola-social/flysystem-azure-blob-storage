@@ -22,12 +22,12 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageBlob\src\Blob\Models;
+namespace Core\Packages\microsoft\AzureStorageBlob\Blob\Models;
 
 use MicrosoftAzure\Storage\Blob\Internal\BlobResources as Resources;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Utilities;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\MarkerContinuationToken;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\MarkerContinuationTokenTrait;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Utilities;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\MarkerContinuationToken;
+use Core\Packages\microsoft\AzureStorageCommon\Common\MarkerContinuationTokenTrait;
 
 /**
  * Container to hold list container response object.

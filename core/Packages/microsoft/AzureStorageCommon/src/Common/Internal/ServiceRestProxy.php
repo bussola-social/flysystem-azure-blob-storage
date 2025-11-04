@@ -22,16 +22,16 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Exceptions\ServiceException;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\RetryMiddlewareFactory;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Serialization\XmlSerializer;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\ServiceOptions;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Http\HttpCallContext;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Middlewares\MiddlewareBase;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Middlewares\MiddlewareStack;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\LocationMode;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Exceptions\ServiceException;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\RetryMiddlewareFactory;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Serialization\XmlSerializer;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\ServiceOptions;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Http\HttpCallContext;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Middlewares\MiddlewareBase;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Middlewares\MiddlewareStack;
+use Core\Packages\microsoft\AzureStorageCommon\Common\LocationMode;
 use GuzzleHttp\Promise\EachPromise;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;

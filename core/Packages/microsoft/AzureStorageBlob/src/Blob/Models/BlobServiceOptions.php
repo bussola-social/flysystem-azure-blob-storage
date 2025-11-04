@@ -22,9 +22,9 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageBlob\src\Blob\Models;
+namespace Core\Packages\microsoft\AzureStorageBlob\Blob\Models;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\ServiceOptions;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\ServiceOptions;
 
 /**
  * Blob service options.

@@ -22,11 +22,11 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageBlob\src\Blob\Models;
+namespace Core\Packages\microsoft\AzureStorageBlob\Blob\Models;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Utilities;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Utilities;
 use MicrosoftAzure\Storage\Blob\Internal\BlobResources as Resources;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\RangeDiff;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\RangeDiff;
 
 /**
  * Holds result of calling listPageBlobRangesDiff wrapper

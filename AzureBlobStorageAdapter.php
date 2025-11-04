@@ -29,15 +29,15 @@ use League\Flysystem\UrlGeneration\PublicUrlGenerator;
 use League\Flysystem\UrlGeneration\TemporaryUrlGenerator;
 use League\MimeTypeDetection\FinfoMimeTypeDetector;
 use League\MimeTypeDetection\MimeTypeDetector;
-use MicrosoftAzure\Storage\Blob\BlobRestProxy;
-use MicrosoftAzure\Storage\Blob\BlobSharedAccessSignatureHelper;
-use MicrosoftAzure\Storage\Blob\Models\BlobProperties;
-use MicrosoftAzure\Storage\Blob\Models\CreateBlockBlobOptions;
-use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
-use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
-use MicrosoftAzure\Storage\Common\Internal\Resources;
-use MicrosoftAzure\Storage\Common\Internal\StorageServiceSettings;
-use MicrosoftAzure\Storage\Common\Models\ContinuationToken;
+use Core\Packages\microsoft\AzureStorageBlob\Blob\BlobRestProxy;
+use Core\Packages\microsoft\AzureStorageBlob\Blob\BlobSharedAccessSignatureHelper;
+use Core\Packages\microsoft\AzureStorageBlob\Blob\Models\BlobProperties;
+use Core\Packages\microsoft\AzureStorageBlob\Blob\Models\CreateBlockBlobOptions;
+use Core\Packages\microsoft\AzureStorageBlob\Blob\Models\ListBlobsOptions;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Exceptions\ServiceException;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Resources;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\StorageServiceSettings;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\ContinuationToken;
 use Throwable;
 use function base64_decode;
 use function bin2hex;
@@ -94,7 +94,7 @@ class AzureBlobStorageAdapter implements FilesystemAdapter, PublicUrlGenerator, 
         $location = $this->prefixer->prefixPath($path);
 
         try {
-            $this->client->deleteBlob($this->container, $location);
+            $this->client->deleteBlob($this->container, $location, null);
         } catch (Throwable $exception) {
             if ($exception instanceof ServiceException && $exception->getCode() === 404) {
                 return;
@@ -116,7 +116,7 @@ class AzureBlobStorageAdapter implements FilesystemAdapter, PublicUrlGenerator, 
         $location = $this->prefixer->prefixPath($path);
 
         try {
-            $response = $this->client->getBlob($this->container, $location);
+            $response = $this->client->getBlob($this->container, $location, null);
 
             return $response->getContentStream();
         } catch (Throwable $exception) {
@@ -195,7 +195,7 @@ class AzureBlobStorageAdapter implements FilesystemAdapter, PublicUrlGenerator, 
             $listResults = $this->client->listBlobs($this->container, $options);
 
             foreach ($listResults->getBlobs() as $blob) {
-                $this->client->deleteBlob($this->container, $blob->getName());
+                $this->client->deleteBlob($this->container, $blob->getName(), null);
             }
 
             $continuationToken = $listResults->getContinuationToken();
@@ -301,7 +301,7 @@ class AzureBlobStorageAdapter implements FilesystemAdapter, PublicUrlGenerator, 
     {
         return $this->normalizeBlobProperties(
             $path,
-            $this->client->getBlobProperties($this->container, $path)->getProperties()
+            $this->client->getBlobProperties($this->container, $path, null)->getProperties()
         );
     }
 

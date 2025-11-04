@@ -22,9 +22,9 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Models;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Models;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Validate;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Validate;
 
 /**
  * Provides functionality and data structure for continuation token that

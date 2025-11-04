@@ -3,7 +3,8 @@
     "autoload": {
         "psr-4": {
           "BussolaSocial\\Flysystem\\AzureBlobStorage\\": "",
-          "Core\\Packages\\": "core/Packages/"
+          "Core\\Packages\\microsoft\\AzureStorageBlob\\": "core/Packages/microsoft/AzureStorageBlob/src/",
+          "Core\\Packages\\microsoft\\AzureStorageCommon\\": "core/Packages/microsoft/AzureStorageCommon/src/"
         }
     },
     "require": {

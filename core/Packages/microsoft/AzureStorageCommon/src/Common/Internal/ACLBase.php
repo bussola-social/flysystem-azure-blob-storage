@@ -23,11 +23,11 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\AccessPolicy;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\SignedIdentifier;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Serialization\XmlSerializer;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\AccessPolicy;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\SignedIdentifier;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Serialization\XmlSerializer;
 
 /**
  * Provide base class for service ACLs.

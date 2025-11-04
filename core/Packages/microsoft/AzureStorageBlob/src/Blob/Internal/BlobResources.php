@@ -22,9 +22,9 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageBlob\src\Blob\Internal;
+namespace Core\Packages\microsoft\AzureStorageBlob\Blob\Internal;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Resources;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Resources;
 
 /**
  * Project resources.

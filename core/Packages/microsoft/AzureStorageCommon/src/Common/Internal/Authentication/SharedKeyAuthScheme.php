@@ -22,13 +22,13 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Authentication;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Authentication;
 
 use GuzzleHttp\Psr7\Query;
 use GuzzleHttp\Psr7\Request;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Http\HttpFormatter;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Resources;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Utilities;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Http\HttpFormatter;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Resources;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Utilities;
 
 /**
  * Provides shared key authentication scheme for blob and queue. For more info

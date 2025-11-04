@@ -22,10 +22,10 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Serialization;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Serialization;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Validate;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Resources;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Validate;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Resources;
 use GuzzleHttp\Exception\RequestException;
 
 /**

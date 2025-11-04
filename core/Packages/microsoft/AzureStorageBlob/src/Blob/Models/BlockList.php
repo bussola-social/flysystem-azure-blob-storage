@@ -22,11 +22,11 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageBlob\src\Blob\Models;
+namespace Core\Packages\microsoft\AzureStorageBlob\Blob\Models;
 
 use MicrosoftAzure\Storage\Blob\Internal\BlobResources as Resources;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Validate;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Serialization\XmlSerializer;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Validate;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Serialization\XmlSerializer;
 
 /**
  * Holds block list used for commitBlobBlocks

@@ -22,7 +22,7 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Middlewares;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Middlewares;
 
 /**
  * This class provides the stack that handles the logic of applying each

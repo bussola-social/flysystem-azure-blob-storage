@@ -22,7 +22,7 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal;
 
 /**
  * Holder for default connection string sources used in CloudConfigurationManager.

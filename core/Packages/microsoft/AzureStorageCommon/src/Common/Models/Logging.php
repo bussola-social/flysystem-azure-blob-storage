@@ -22,9 +22,9 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Models;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Models;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Utilities;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Utilities;
 
 /**
  * Holds elements of queue properties logging field.

@@ -22,11 +22,11 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Middlewares;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Middlewares;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\LocationMode;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Resources;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Utilities;
+use Core\Packages\microsoft\AzureStorageCommon\Common\LocationMode;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Resources;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Utilities;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Psr7\Uri;

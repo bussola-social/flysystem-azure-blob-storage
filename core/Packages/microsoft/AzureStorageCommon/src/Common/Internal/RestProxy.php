@@ -23,9 +23,9 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\IMiddleware;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\IMiddleware;
 
 /**
  * Base class for all REST proxies.

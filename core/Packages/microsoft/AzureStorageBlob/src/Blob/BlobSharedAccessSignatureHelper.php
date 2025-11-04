@@ -22,12 +22,12 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageBlob\src\Blob;
+namespace Core\Packages\microsoft\AzureStorageBlob\Blob;
 
 use MicrosoftAzure\Storage\Blob\Internal\BlobResources as Resources;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Utilities;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Validate;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\SharedAccessSignatureHelper;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Utilities;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Validate;
+use Core\Packages\microsoft\AzureStorageCommon\Common\SharedAccessSignatureHelper;
 
 /**
  * Provides methods to generate Azure Storage Shared Access Signature

@@ -22,9 +22,9 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Exceptions;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Exceptions;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Resources;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Resources;
 
 /**
  * Exception thrown if an argument type does not match with the expected type.

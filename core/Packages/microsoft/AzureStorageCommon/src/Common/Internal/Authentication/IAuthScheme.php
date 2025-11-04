@@ -22,7 +22,7 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Authentication;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Authentication;
 
 use GuzzleHttp\Psr7\Request;
 

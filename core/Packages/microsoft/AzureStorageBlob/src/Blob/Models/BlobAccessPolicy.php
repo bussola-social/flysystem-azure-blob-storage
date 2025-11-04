@@ -22,10 +22,10 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageBlob\src\Blob\Models;
+namespace Core\Packages\microsoft\AzureStorageBlob\Blob\Models;
 
 use MicrosoftAzure\Storage\Blob\Internal\BlobResources;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Models\AccessPolicy;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Models\AccessPolicy;
 
 /**
  * Holds access policy elements

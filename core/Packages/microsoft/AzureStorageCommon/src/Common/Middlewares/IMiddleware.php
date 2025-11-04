@@ -22,7 +22,7 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Middlewares;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Middlewares;
 
 /**
  * IMiddleware is called before sending the request and after receiving the

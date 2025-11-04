@@ -22,7 +22,7 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Serialization;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Serialization;
 
 /**
  * The serialization interface.

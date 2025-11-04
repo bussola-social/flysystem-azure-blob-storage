@@ -22,7 +22,7 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common;
 
 use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Utilities;
 use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Validate;

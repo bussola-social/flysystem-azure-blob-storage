@@ -22,10 +22,10 @@
  * @link      https://github.com/azure/azure-storage-php
  */
 
-namespace Core\Packages\microsoft\AzureStorageCommon\src\Common\Exceptions;
+namespace Core\Packages\microsoft\AzureStorageCommon\Common\Exceptions;
 
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Serialization\XmlSerializer;
-use Core\Packages\microsoft\AzureStorageCommon\src\Common\Internal\Resources;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Serialization\XmlSerializer;
+use Core\Packages\microsoft\AzureStorageCommon\Common\Internal\Resources;
 use Psr\Http\Message\ResponseInterface;
 
 /**
